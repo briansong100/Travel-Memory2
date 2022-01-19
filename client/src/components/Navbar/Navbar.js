@@ -14,7 +14,7 @@ function Navbar() {
   const location = useLocation()
   const { currentPage } = useSelector((state) => state.posts)
 
-  const navPage = `/posts/\?page=${currentPage}`
+  const navPage = `/posts/?page=${currentPage}`
   // const navPage = `/posts/\?page=${page}`
   let profile = localStorage.getItem('profile')
   if (profile === "{}") profile = null

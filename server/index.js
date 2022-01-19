@@ -22,3 +22,6 @@ mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnified
 
 app.use('/posts', postRouters)
 app.use('/user', userRouters)  
+app.get('/', (req, res)=>{
+  res.send("App is running.")
+})

@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brian Song",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

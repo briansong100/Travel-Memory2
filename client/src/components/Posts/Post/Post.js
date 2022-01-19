@@ -58,7 +58,7 @@ const Post = ({ post, setCurrentId }) => {
 
         <CardMedia className={css.media} image={post.selectedFile || pic} title={post.title} />
         <div className={css.overlay} >
-          <Typography component="subtitle2">{post.name}</Typography>
+          <Typography variant="subtitle2">{post.name}</Typography>
           <Typography variant="body2">{moment(post.createdAt).fromNow()}</Typography>
         </div>
       </ButtonBase>
